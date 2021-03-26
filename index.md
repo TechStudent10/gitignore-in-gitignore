@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# .gitignoreTest
+What happens when you put .gitignore in .gitignore
 
-You can use the [editor on GitHub](https://github.com/TechStudent11/.gitignoreTest/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+So I added the .gitignore through [GitHub](https://github.com), and it got added. Well it'll get added regardless of if it's in the .gitignore or not, so I am going to do this in Github Desktop and see what it does.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Update after GitHub Desktop
+Soooooo... the .gitignore doesn't appear in [GitHub Desktop](https://desktop.github.com), so that's one big...
+#### OOF!
+So it cloned the repo along with the gitignore, however the way that [GitHub Desktop](https://desktop.github.com) (Someone correct me if I am wrong) works is that if there is a .gitignore file, read the contents of it, then remove all those files from the list of files of that repository. So GitHub Desktop found the file, just that it's doing it's job.
+### Ignoring it.
+So that means I cannot commit the thing right? 'Cause if I remove the .gitignore, it'll defeat the whole purpose of this repo, and if I leave it, then we cannot commit it cause git is gonna "ignore" it.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TechStudent11/.gitignoreTest/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Well, thanks for reading
+So yeah this expriment wasn't a total failure, it showed you what happens if you add .gitignore to your .gitignore. Thanks for reading.
